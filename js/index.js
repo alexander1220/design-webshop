@@ -70,7 +70,7 @@ const productButton = function(imgUrl, name, price) {
 
 
 let imgurl = 'https://images.unsplash.com/photo-1593642533144-3d62aa4783ec?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80';
-const btn = productButton(imgurl, "Ehren danke", "35€$");
+const btn = productButton(imgurl, "{product-name}", "{product-price}");
 
 const element = document.getElementById("itemHolder");
 for (let i = 0; i < 50; i++) {
